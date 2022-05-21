@@ -1,0 +1,144 @@
+@use "colors";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  // background-color: colors.$lightGrayishBlue;
+  background-color: #303641;
+  font-family: "Manrope", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 32.8rem;
+  position: relative;
+
+  &__img-container {
+    margin: 0;
+    overflow: hidden;
+    height: 20rem;
+    margin-bottom: 1.6rem;
+  }
+
+  &__img {
+    width: 100%;
+    margin-top: -1.6rem;
+  }
+
+  // Main text
+
+  &__main-content-wrapper {
+    padding: 2rem 3.5rem 0.3rem 3.2rem;
+  }
+
+  &__title {
+    font-size: 1.65rem;
+    line-height: 2.4rem;
+    color: colors.$veryDarkGrayishBlue;
+    margin: 0;
+  }
+
+  &__text {
+    font-size: 1.32rem;
+    line-height: 2rem;
+    margin: 1.1rem 0 1.5rem;
+    color: colors.$desaturatedDarkBlue;
+  }
+
+  // Bottom info
+
+  &__user-info-wrapper {
+    padding: 0 3.3rem 0.5rem 3.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__user-avatar {
+    width: 4rem;
+    border-radius: 50%;
+  }
+
+  &__user-description {
+    padding-left: 1.7rem;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    font-weight: 700;
+    color: colors.$veryDarkGrayishBlue;
+  }
+
+  &__user-date {
+    font-weight: 500;
+    color: colors.$grayishBlue;
+  }
+
+  &__share-btn {
+    border-radius: 50%;
+    border: 0;
+    padding: 0.8rem;
+    margin-left: auto;
+    background-color: colors.$lightGrayishBlue;
+  }
+
+  // Active state
+
+  &__social-share {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: colors.$veryDarkGrayishBlue;
+    color: colors.$lightGrayishBlue;
+    padding: 1.15rem 3.2rem 1.15rem 3.2rem;
+    height: 4.8rem;
+    width: 82%;
+    transition: all 400ms ease;
+
+    .card__share-btn--active {
+      background-color: #303641;
+      filter: brightness(250%);
+    }
+
+    &-text {
+      color: colors.$grayishBlue;
+      letter-spacing: 0.5rem;
+      font-size: 1.3rem;
+    }
+
+    &-link {
+      margin-left: 1.6rem;
+    }
+
+    .fa-brands {
+      font-size: 1.7rem;
+      color: colors.$lightGrayishBlue;
+    }
+    .fa-facebook-f {
+      padding: 0.3rem 0.3rem 0 0.7rem;
+      background-color: colors.$lightGrayishBlue;
+      color: colors.$veryDarkGrayishBlue;
+    }
+
+    .fa-pinterest,
+    .fa-twitter {
+      font-size: 2rem;
+    }
+  }
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+// .attribution { font-size: 11px; text-align: center; }
+// .attribution a { color: hsl(228, 45%, 44%); }

@@ -1,0 +1,118 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #303641;
+  font-family: "Manrope", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 32.8rem;
+  position: relative;
+}
+.card__img-container {
+  margin: 0;
+  overflow: hidden;
+  height: 20rem;
+  margin-bottom: 1.6rem;
+}
+.card__img {
+  width: 100%;
+  margin-top: -1.6rem;
+}
+.card__main-content-wrapper {
+  padding: 2rem 3.5rem 0.3rem 3.2rem;
+}
+.card__title {
+  font-size: 1.65rem;
+  line-height: 2.4rem;
+  color: #48556a;
+  margin: 0;
+}
+.card__text {
+  font-size: 1.32rem;
+  line-height: 2rem;
+  margin: 1.1rem 0 1.5rem;
+  color: #6d7f97;
+}
+.card__user-info-wrapper {
+  padding: 0 3.3rem 0.5rem 3.2rem;
+  display: flex;
+  align-items: center;
+}
+.card__user-avatar {
+  width: 4rem;
+  border-radius: 50%;
+}
+.card__user-description {
+  padding-left: 1.7rem;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+  color: #48556a;
+}
+.card__user-date {
+  font-weight: 500;
+  color: #9eafc2;
+}
+.card__share-btn {
+  border-radius: 50%;
+  border: 0;
+  padding: 0.8rem;
+  margin-left: auto;
+  background-color: #ecf2f8;
+}
+.card__social-share {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background-color: #48556a;
+  color: #ecf2f8;
+  padding: 1.15rem 3.2rem 1.15rem 3.2rem;
+  height: 4.8rem;
+  width: 82%;
+  transition: all 400ms ease;
+}
+.card__social-share .card__share-btn--active {
+  background-color: #303641;
+  filter: brightness(250%);
+}
+.card__social-share-text {
+  color: #9eafc2;
+  letter-spacing: 0.5rem;
+  font-size: 1.3rem;
+}
+.card__social-share-link {
+  margin-left: 1.6rem;
+}
+.card__social-share .fa-brands {
+  font-size: 1.7rem;
+  color: #ecf2f8;
+}
+.card__social-share .fa-facebook-f {
+  padding: 0.3rem 0.3rem 0 0.7rem;
+  background-color: #ecf2f8;
+  color: #48556a;
+}
+.card__social-share .fa-pinterest,
+.card__social-share .fa-twitter {
+  font-size: 2rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  height: 280px;
+  overflow: visible;
+  width: 73rem;
+}
+.card__img-container {
+  margin: 0;
+  width: 70rem;
+  height: auto;
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+.card__img {
+  margin: 0;
+  width: 125%;
+}
+.card__main-content-wrapper {
+  padding: 3.27rem 3.8rem 0.2rem 4.3rem;
+}
+.card__title {
+  font-size: 2.04rem;
+}
+.card__user-info-wrapper {
+  padding-left: 4.3rem;
+}
+.card__social-share {
+  position: absolute;
+  right: -9.5rem;
+  bottom: 10rem;
+  width: 18.2rem;
+  border-radius: 1rem;
+  padding: 0.9rem 3.2rem;
+}
+.card__social-share::after {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  background-color: #48556a;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -0.8rem;
+  right: 13rem;
+}
+.card__share-btn {
+  transition: 400ms ease;
+}
+.card__share-btn:hover {
+  background-color: #303641;
+  filter: brightness(250%);
+}
+.card .card__share-btn--active {
+  position: absolute;
+  bottom: -6rem;
+  left: 8.67rem;
+}
+
+/*# sourceMappingURL=media-queries.css.map */
