@@ -6,7 +6,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ![](/design/desktop-preview.jpg)
 
-Link:
+Link: https://lino-otm.github.io/Article-preview-component/
 
 ### Built with:
 
