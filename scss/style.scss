@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   min-height: 100vh;
 }
 
@@ -22,6 +23,7 @@ body {
   overflow: hidden;
   width: 32.8rem;
   position: relative;
+  margin-bottom: 2rem;
 
   &__img-container {
     margin: 0;
@@ -139,5 +141,5 @@ body {
   visibility: hidden;
 }
 
-// .attribution { font-size: 11px; text-align: center; }
-// .attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 1.1rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

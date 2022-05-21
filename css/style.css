@@ -11,6 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   min-height: 100vh;
 }
 
@@ -20,6 +21,7 @@ body {
   overflow: hidden;
   width: 32.8rem;
   position: relative;
+  margin-bottom: 2rem;
 }
 .card__img-container {
   margin: 0;
@@ -113,6 +115,15 @@ body {
 
 .hidden {
   visibility: hidden;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
 }
 
 /*# sourceMappingURL=style.css.map */
